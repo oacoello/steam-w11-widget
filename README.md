@@ -4,7 +4,7 @@ Native Windows 11 Widgets Board provider (`IWidgetProvider` / Windows App SDK) b
 
 ## Features
 
-- **Automatic Steam Library Discovery**: Reads `HKCU\Software\Valve\Steam`, `steamapps/libraryfolders.vdf`, `appmanifest_*.acf`, and `userdata/<id>/config/localconfig.vdf`.
+- **Automatic Steam Library Discovery**:
 - **Sorted by Recently Opened**: Orders installed games by their most recent `LastPlayed` timestamp and promotes games to the top as soon as you launch them.
 - **Playtime & Disk Size**: Displays hours played and disk usage in a compact format (e.g., `314,1 h | 321 MB`).
 - **Responsive Widget Sizes**:
