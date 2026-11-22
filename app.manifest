@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<assembly manifestVersion="1.0"
+    xmlns:asmv3="urn:schemas-microsoft-com:asm.v3"
+    xmlns:winrtv1="urn:schemas-microsoft-com:winrt.v1"
+    xmlns="urn:schemas-microsoft-com:asm.v1">
+  <assemblyIdentity version="1.0.0.0" name="SteamLibraryWidgetProvider.app"/>
+  <asmv3:file name="Microsoft.WindowsAppRuntime.dll">
+    <winrtv1:activatableClass name="Microsoft.Windows.ApplicationModel.DynamicDependency.AddPackageDependencyOptions" threadingModel="both"/>
+    <winrtv1:activatableClass name="Microsoft.Windows.ApplicationModel.DynamicDependency.CreatePackageDependencyOptions" threadingModel="both"/>
+    <winrtv1:activatableClass name="Microsoft.Windows.ApplicationModel.DynamicDependency.PackageDependency" threadingModel="both"/>
+    <winrtv1:activatableClass name="Microsoft.Windows.ApplicationModel.DynamicDependency.PackageDependencyContext" threadingModel="both"/>
+    <winrtv1:activatableClass name="Microsoft.Windows.ApplicationModel.DynamicDependency.PackageDependencyRank" threadingModel="both"/>
+    <winrtv1:activatableClass name="Microsoft.Windows.ApplicationModel.WindowsAppRuntime.DeploymentManager" threadingModel="both"/>
+    <winrtv1:activatableClass name="Microsoft.Windows.ApplicationModel.WindowsAppRuntime.DeploymentResult" threadingModel="both"/>
+    <winrtv1:activatableClass name="Microsoft.Windows.ApplicationModel.WindowsAppRuntime.DeploymentInitializeOptions" threadingModel="both"/>
+    <winrtv1:activatableClass name="Microsoft.Windows.ApplicationModel.WindowsAppRuntime.ReleaseInfo" threadingModel="both"/>
+    <winrtv1:activatableClass name="Microsoft.Windows.ApplicationModel.WindowsAppRuntime.RuntimeInfo" threadingModel="both"/>
+    <winrtv1:activatableClass name="Microsoft.Windows.AppLifecycle.ActivationRegistrationManager" threadingModel="both"/>
+    <winrtv1:activatableClass name="Microsoft.Windows.AppLifecycle.AppInstance" threadingModel="both"/>
+  </asmv3:file>
+  <asmv3:file name="Microsoft.Windows.Widgets.dll">
+    <winrtv1:activatableClass name="Microsoft.Windows.Widgets.Providers.WidgetUpdateRequestOptions" threadingModel="both"/>
+    <winrtv1:activatableClass name="Microsoft.Windows.Widgets.Providers.WidgetManager" threadingModel="both"/>
+    <winrtv1:activatableClass name="Microsoft.Windows.Widgets.Providers.WidgetResourceResponse" threadingModel="both"/>
+    <winrtv1:activatableClass name="Microsoft.Windows.Widgets.Notifications.WidgetAnnouncement" threadingModel="both"/>
+    <winrtv1:activatableClass name="Microsoft.Windows.Widgets.Feeds.Providers.FeedManager" threadingModel="both"/>
+    <winrtv1:activatableClass name="Microsoft.Windows.Widgets.Feeds.Providers.CustomQueryParametersUpdateOptions" threadingModel="both"/>
+    <winrtv1:activatableClass name="Microsoft.Windows.Widgets.Feeds.Providers.FeedResourceResponse" threadingModel="both"/>
+    <winrtv1:activatableClass name="Microsoft.Windows.Widgets.Notifications.FeedAnnouncement" threadingModel="both"/>
+  </asmv3:file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />
+    </application>
+  </compatibility>
+</assembly>

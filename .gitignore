@@ -1,0 +1,7 @@
+/target/
+*.exe
+*.dll
+*.winmd
+*.pri
+*.pdb
+*.log
